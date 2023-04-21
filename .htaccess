@@ -1,0 +1,25 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .(css|js|jpg|jpeg|png|gif|ico|swf|bmp)$ - [nocase,redirect=404,last]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .(css|js|jpg|jpeg|png|gif|ico|swf|bmp)$ - [nocase,redirect=404,last]
+RewriteEngine on
+
+
+
+
+
+
+
+RewriteRule ^araclarimiz$ araclarimiz.php [NC,L]
+RewriteRule ^hakkimizda$ hakkimizda.php [NC,L]
+RewriteRule ^hizmetlerimiz$ hizmetlerimiz.php [NC,L]
+RewriteRule ^blog$ blog.php [NC,L]
+RewriteRule ^iletisim$ iletisim.php [NC,L]
+RewriteRule ^anasayfa$ index.php [NC,L]
+
+

@@ -1,0 +1,16 @@
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file includes all admin Template plugins. If you don't want to use any plugins from below. You can simply remove that line from this file.
+*/
+
+/*plugins*/
+@import url("plugins/bootstrap-colorpicker.min.css");
+@import url("plugins/bootstrap-touchspin.min.css");
+@import url("plugins/fullcalendar.min.css");
+@import url("plugins/jquery-jvectormap.css");
+@import url("plugins/simplemde.min.css");
+@import url("plugins/summernote.min.css");
+@import url("plugins/weather-icons.min.css");

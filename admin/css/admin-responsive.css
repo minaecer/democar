@@ -1,0 +1,79 @@
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains responsive Media Queries of admin Template. You can edit/add anything in this file for responsive related changes!
+*/
+
+
+ /*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+ 
+ /*************************
+       1200px 1200px
+*************************/   
+@media only screen and (min-width: 1200px) and (max-width: 1200px) { 
+.data-usage .row.d-flex { display: block !important; }
+.data-usage .row .col-sm-6 { max-width: 100% !important; }
+.admin-followers .button.float-right { float: none !important; margin-bottom: 10px; }
+}
+ 
+ /*************************
+       1400px
+*************************/    
+@media (max-width: 1400px) {
+.admin-timeline { padding: 0; margin-top: 50px; }
+.admin-shortcode ul li a { padding: 50px 28px; }
+}
+
+/*************************
+       991px
+*************************/    
+@media (max-width: 991px) {
+.content-wrapper { margin-left: 0; }
+.side-menu-fixed { left: -230px; }
+.slide-menu .side-menu-fixed { width: 230px; left: 0; }
+.slide-menu .content-wrapper { margin-left: 0; }
+.slide-menu .side-menu-fixed .right-nav-text { opacity: 1; }
+.admin-header a.button-toggle-nav { line-height: initial; }
+.navbar .navbar-brand { padding: 8px 0; }
+.side-menu-fixed .side-menu { height: auto; }
+.admin-header .search .search-btn { line-height: 40px; }
+.admin-header.navbar .navbar-brand-wrapper .navbar-brand.brand-logo { display: none; }
+.admin-header.navbar .navbar-brand-wrapper .brand-logo-mini { display: block; }
+.admin-header.navbar .navbar-brand-wrapper { width: 75px; }
+.admin-header.navbar ul.navbar-nav li { margin-left:0px; }
+.content-wrapper .breadcrumb { padding-left: 0 !important; margin-top: 10px; }
+.admin-header .navbar-nav .nav-item { min-width: 40px; }
+.admin-header.navbar ul.navbar-nav li.fullscreen { display: none; }
+.admin-header a.button-toggle-nav.ml-20 { margin-left: 0px !important; }
+.admin-header.header-dark a.button-toggle-nav { line-height: 18px; }
+}
+
+@media (max-width: 767px) {
+.fc-toolbar .fc-left { display: inline-block; float: none; text-align: center; clear: both; }
+.fc-toolbar .fc-right { display: inline-block; float: none; text-align: center; clear: both; }
+.account-overview { margin-top: 140px; position: relative; }
+.header-info .page-title .card .info-btn, .header-info .page-title .card .info-drop { right: inherit; left: 0; }
+.fc-icon, .fc-toolbar .fc-center { display: block; }
+ .fc-toolbar .fc-center h4 { float: none; }
+
+}
+
+@media (max-width: 600px) {
+.admin-header .navbar-nav .dropdown-big { min-width: 250px; }
+.admin-header .nav-grid .nav-grid-item { width: 48.3%; }
+.admin-header .navbar-nav .dropdown-big { right: -100%; }
+ .profile-page .user-info .user-dp, .profile-page .user-info .user-detail { display: block; }
+.profile-page .user-bg { padding: 130px 0; } 
+.profile-page .user-detail  { margin-bottom: 20px; }
+.admin-timeline.our-history .timeline:before { display: none; }
+.weather-box-bg .weather-degree { font-size: 40px; }
+.weather-box-bg .pos-bot { position: relative; }
+.fc .fc-button-group>* { float: none; margin-bottom: 5px !important; display: inline-block; }
+.pagination li a { margin: 0 2px; }
+}
